@@ -8,11 +8,12 @@ Successivamente ho installato il protocollo SSH, che permette di stabilire una s
 - sudo yum install sshd
 - systemctl start sshd
 - systemctl enable sshd
+
 <br> ![SSH_INSTALLAZIONE](https://user-images.githubusercontent.com/77326242/118560363-ab667600-b769-11eb-94f4-b5bd0d4806cd.png)
 <br>
 Sono stati modificati all'interno di /etc/ssh/sshd_config i permessi impedendo l'accesso da remoto all'utente root e, inoltre, sono stati indicati gli utenti che possono accedere da remoto.
 
-<br>![PERMESSI_SSH](https://user-images.githubusercontent.com/77326242/118560380-b0c3c080-b769-11eb-8b44-6fe43c5a6e9f.png)
+<br> ![PERMESSI_SSH](https://user-images.githubusercontent.com/77326242/118560380-b0c3c080-b769-11eb-8b44-6fe43c5a6e9f.png)
 
 
 
@@ -21,12 +22,12 @@ E' stato installato e configurato il servizio http tramite i comandi:
 - yum install httpd
 - systemctl start httpd
 - systemctl enable httpd
-<br>
-![InstallazioneHttp](https://user-images.githubusercontent.com/77326242/118561431-3eec7680-b76b-11eb-8aab-f16656475c31.png)
+
+<br> ![InstallazioneHttp](https://user-images.githubusercontent.com/77326242/118561431-3eec7680-b76b-11eb-8aab-f16656475c31.png)
 <br>
 E' stato configurato un firewall per permettere l'accesso alla porta di default del servizio (80/tcp) ed è stato effettuato un ricaricamento delle impostazioni
-<br>
-![FirewallPorta](https://user-images.githubusercontent.com/77326242/118561482-562b6400-b76b-11eb-977b-ef09fba6044a.png)
+
+<br> ![FirewallPorta](https://user-images.githubusercontent.com/77326242/118561482-562b6400-b76b-11eb-977b-ef09fba6044a.png)
 <br>
 
 

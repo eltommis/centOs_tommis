@@ -22,10 +22,9 @@ E' stato installato e configurato il servizio http tramite i comandi:
 - systemctl start httpd
 - systemctl enable httpd
  * 167 *
- * 165 *
 E' stato configurato un firewall per permettere l'accesso alla porta di default del servizio (80/tcp) ed è stato effettuato un 
 ricaricamento delle impostazioni 
-* 162 *
+
 
 # PhpMyAdmin
 è stato installato il repo aggiuntivo EPEL repo tramite il comando:

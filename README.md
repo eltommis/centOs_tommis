@@ -54,15 +54,26 @@ I comandi che sono stati digitati per l'installazione sono:
 - yum install vsftpd
 - systemctl start vsftpd
 - systemctl enable vsftpd
-180
-181
+
+<br>![FTP_Installazione](https://user-images.githubusercontent.com/77326242/118563499-f6cf5300-b76e-11eb-902e-18e6250b480e.png)
+<br>
+
+<br>![FTP_Ctl](https://user-images.githubusercontent.com/77326242/118563508-fa62da00-b76e-11eb-963e-b0e6e61eeb6d.png)
+<br>
 sono stati impostati i firewall:
 - firewall-cmd --permanent --add-service=ftp
 - firewall-cmd --reload
-182
+
+<br>![FirewallFtp](https://user-images.githubusercontent.com/77326242/118563535-064e9c00-b76f-11eb-93e5-baad78c807e4.png)
+<br>
+
 Per rendere più sicuro il servizio e permettere l'accesso ai soli utenti di sistema si è deciso di:
 - impedire accesso utenti anonimi
 - abilitare il chroot'ing (chroot jail)
 - permettere agli utenti locali di poter scrivere nella propria home dir
-* 183 *
-* 184 *
+
+<br>![UtentiAccesso](https://user-images.githubusercontent.com/77326242/118563559-0fd80400-b76f-11eb-843c-c441025f2451.png)
+<br>
+
+<br>![UtentiAccesso2](https://user-images.githubusercontent.com/77326242/118563576-16667b80-b76f-11eb-8554-439e45b88027.png)
+<br>

@@ -1,5 +1,5 @@
 # CENTOS
-La macchina virtuale su cui ho installato i vari servizi, utilizza come sistema operativo Centos 7. Ho deciso di utilizzare come editor di testo nano .
+La macchina virtuale su cui ho installato i vari servizi, utilizza come sistema operativo Centos 7. Ho deciso di utilizzare come editor di testo nano.
 <br>
 ![Inizio](https://user-images.githubusercontent.com/77326242/118560350-a43f6800-b769-11eb-8cef-197d74641445.png)
 
@@ -12,7 +12,7 @@ Successivamente ho installato il protocollo SSH, che permette di stabilire una s
 <br>
 Sono stati modificati all'interno di /etc/ssh/sshd_config i permessi impedendo l'accesso da remoto all'utente root e, inoltre, sono stati indicati gli utenti che possono accedere da remoto.
 
-![PERMESSI_SSH](https://user-images.githubusercontent.com/77326242/118560380-b0c3c080-b769-11eb-8b44-6fe43c5a6e9f.png)
+<br>![PERMESSI_SSH](https://user-images.githubusercontent.com/77326242/118560380-b0c3c080-b769-11eb-8b44-6fe43c5a6e9f.png)
 
 
 

@@ -21,9 +21,13 @@ E' stato installato e configurato il servizio http tramite i comandi:
 - yum install httpd
 - systemctl start httpd
 - systemctl enable httpd
- * 167 *
-E' stato configurato un firewall per permettere l'accesso alla porta di default del servizio (80/tcp) ed è stato effettuato un 
-ricaricamento delle impostazioni 
+<br>
+![InstallazioneHttp](https://user-images.githubusercontent.com/77326242/118561431-3eec7680-b76b-11eb-8aab-f16656475c31.png)
+<br>
+E' stato configurato un firewall per permettere l'accesso alla porta di default del servizio (80/tcp) ed è stato effettuato un ricaricamento delle impostazioni
+<br>
+![FirewallPorta](https://user-images.githubusercontent.com/77326242/118561482-562b6400-b76b-11eb-977b-ef09fba6044a.png)
+<br>
 
 
 # PhpMyAdmin

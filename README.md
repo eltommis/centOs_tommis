@@ -36,12 +36,16 @@ E' stato configurato un firewall per permettere l'accesso alla porta di default 
 - yum install epel-release
 in seguito è stato installato  phpMyAdmin con il comando:
 - yum install phpmyadmin
- * PhpMyAdmin_INstallazione *
+
+<br> ![PhpMyAdmin_INstallazione](https://user-images.githubusercontent.com/77326242/118562326-c5ee1e80-b76c-11eb-98f9-9e79882a0a00.png)
+<br>
 E' stato modificato il file di configurazione /etc/httpd/conf.d/phpMyAdmin.conf impostando un alias personalizzato:
 - #Alias /phpmyadmin /usr/share/phpMyAdmin
 - #Alias /phpMyAdmin /usr/share/phpMyAdmin
 - Alias /<mio_alias> /usr/share/phpMyAdmin<br>
-alias 
+
+<br>![Alias](https://user-images.githubusercontent.com/77326242/118562343-cc7c9600-b76c-11eb-8b5f-9380447d987f.png)
+<br>
 
 # FTP
 E' stato installato il servizio FTP, protocollo di livello applicazioni per la trasmissione dei dati tra host basato su TCP 
